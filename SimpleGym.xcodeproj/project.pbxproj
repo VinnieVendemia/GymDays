@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E9236BA1912AC1A005907CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9236B91912AC1A005907CA /* Foundation.framework */; };
+		2E9236BC1912AC1A005907CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9236BB1912AC1A005907CA /* CoreGraphics.framework */; };
+		2E9236BE1912AC1A005907CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9236BD1912AC1A005907CA /* UIKit.framework */; };
+		2E9236C41912AC1A005907CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E9236C21912AC1A005907CA /* InfoPlist.strings */; };
+		2E9236C61912AC1A005907CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9236C51912AC1A005907CA /* main.m */; };
+		2E9236CA1912AC1A005907CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9236C91912AC1A005907CA /* AppDelegate.m */; };
+		2E9236CD1912AC1A005907CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9236CB1912AC1A005907CA /* Main.storyboard */; };
+		2E9236D01912AC1A005907CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9236CF1912AC1A005907CA /* ViewController.m */; };
+		2E9236D21912AC1A005907CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9236D11912AC1A005907CA /* Images.xcassets */; };
+		2E9236D91912AC1A005907CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9236D81912AC1A005907CA /* XCTest.framework */; };
+		2E9236DA1912AC1A005907CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9236B91912AC1A005907CA /* Foundation.framework */; };
+		2E9236DB1912AC1A005907CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9236BD1912AC1A005907CA /* UIKit.framework */; };
+		2E9236E31912AC1A005907CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E9236E11912AC1A005907CA /* InfoPlist.strings */; };
+		2E9236E51912AC1A005907CA /* SimpleGymTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9236E41912AC1A005907CA /* SimpleGymTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E9236DC1912AC1A005907CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E9236AE1912AC1A005907CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E9236B51912AC1A005907CA;
+			remoteInfo = SimpleGym;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E9236B61912AC1A005907CA /* SimpleGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9236B91912AC1A005907CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E9236BB1912AC1A005907CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E9236BD1912AC1A005907CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E9236C11912AC1A005907CA /* SimpleGym-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGym-Info.plist"; sourceTree = "<group>"; };
+		2E9236C31912AC1A005907CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E9236C51912AC1A005907CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E9236C71912AC1A005907CA /* SimpleGym-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleGym-Prefix.pch"; sourceTree = "<group>"; };
+		2E9236C81912AC1A005907CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E9236C91912AC1A005907CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E9236CC1912AC1A005907CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E9236CE1912AC1A005907CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E9236CF1912AC1A005907CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E9236D11912AC1A005907CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E9236D71912AC1A005907CA /* SimpleGymTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGymTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9236D81912AC1A005907CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2E9236E01912AC1A005907CA /* SimpleGymTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGymTests-Info.plist"; sourceTree = "<group>"; };
+		2E9236E21912AC1A005907CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E9236E41912AC1A005907CA /* SimpleGymTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGymTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E9236B31912AC1A005907CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9236BC1912AC1A005907CA /* CoreGraphics.framework in Frameworks */,
+				2E9236BE1912AC1A005907CA /* UIKit.framework in Frameworks */,
+				2E9236BA1912AC1A005907CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9236D41912AC1A005907CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9236D91912AC1A005907CA /* XCTest.framework in Frameworks */,
+				2E9236DB1912AC1A005907CA /* UIKit.framework in Frameworks */,
+				2E9236DA1912AC1A005907CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9236AD1912AC1A005907CA = {
+			isa = PBXGroup;
+			children = (
+				2E9236BF1912AC1A005907CA /* SimpleGym */,
+				2E9236DE1912AC1A005907CA /* SimpleGymTests */,
+				2E9236B81912AC1A005907CA /* Frameworks */,
+				2E9236B71912AC1A005907CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E9236B71912AC1A005907CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E9236B61912AC1A005907CA /* SimpleGym.app */,
+				2E9236D71912AC1A005907CA /* SimpleGymTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E9236B81912AC1A005907CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E9236B91912AC1A005907CA /* Foundation.framework */,
+				2E9236BB1912AC1A005907CA /* CoreGraphics.framework */,
+				2E9236BD1912AC1A005907CA /* UIKit.framework */,
+				2E9236D81912AC1A005907CA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E9236BF1912AC1A005907CA /* SimpleGym */ = {
+			isa = PBXGroup;
+			children = (
+				2E9236C81912AC1A005907CA /* AppDelegate.h */,
+				2E9236C91912AC1A005907CA /* AppDelegate.m */,
+				2E9236CB1912AC1A005907CA /* Main.storyboard */,
+				2E9236CE1912AC1A005907CA /* ViewController.h */,
+				2E9236CF1912AC1A005907CA /* ViewController.m */,
+				2E9236D11912AC1A005907CA /* Images.xcassets */,
+				2E9236C01912AC1A005907CA /* Supporting Files */,
+			);
+			path = SimpleGym;
+			sourceTree = "<group>";
+		};
+		2E9236C01912AC1A005907CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E9236C11912AC1A005907CA /* SimpleGym-Info.plist */,
+				2E9236C21912AC1A005907CA /* InfoPlist.strings */,
+				2E9236C51912AC1A005907CA /* main.m */,
+				2E9236C71912AC1A005907CA /* SimpleGym-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E9236DE1912AC1A005907CA /* SimpleGymTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E9236E41912AC1A005907CA /* SimpleGymTests.m */,
+				2E9236DF1912AC1A005907CA /* Supporting Files */,
+			);
+			path = SimpleGymTests;
+			sourceTree = "<group>";
+		};
+		2E9236DF1912AC1A005907CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E9236E01912AC1A005907CA /* SimpleGymTests-Info.plist */,
+				2E9236E11912AC1A005907CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E9236B51912AC1A005907CA /* SimpleGym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9236E81912AC1A005907CA /* Build configuration list for PBXNativeTarget "SimpleGym" */;
+			buildPhases = (
+				2E9236B21912AC1A005907CA /* Sources */,
+				2E9236B31912AC1A005907CA /* Frameworks */,
+				2E9236B41912AC1A005907CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGym;
+			productName = SimpleGym;
+			productReference = 2E9236B61912AC1A005907CA /* SimpleGym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E9236D61912AC1A005907CA /* SimpleGymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9236EB1912AC1A005907CA /* Build configuration list for PBXNativeTarget "SimpleGymTests" */;
+			buildPhases = (
+				2E9236D31912AC1A005907CA /* Sources */,
+				2E9236D41912AC1A005907CA /* Frameworks */,
+				2E9236D51912AC1A005907CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E9236DD1912AC1A005907CA /* PBXTargetDependency */,
+			);
+			name = SimpleGymTests;
+			productName = SimpleGymTests;
+			productReference = 2E9236D71912AC1A005907CA /* SimpleGymTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E9236AE1912AC1A005907CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vinnie Vendemia";
+				TargetAttributes = {
+					2E9236D61912AC1A005907CA = {
+						TestTargetID = 2E9236B51912AC1A005907CA;
+					};
+				};
+			};
+			buildConfigurationList = 2E9236B11912AC1A005907CA /* Build configuration list for PBXProject "SimpleGym" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E9236AD1912AC1A005907CA;
+			productRefGroup = 2E9236B71912AC1A005907CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E9236B51912AC1A005907CA /* SimpleGym */,
+				2E9236D61912AC1A005907CA /* SimpleGymTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E9236B41912AC1A005907CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9236D21912AC1A005907CA /* Images.xcassets in Resources */,
+				2E9236C41912AC1A005907CA /* InfoPlist.strings in Resources */,
+				2E9236CD1912AC1A005907CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9236D51912AC1A005907CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9236E31912AC1A005907CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E9236B21912AC1A005907CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9236D01912AC1A005907CA /* ViewController.m in Sources */,
+				2E9236CA1912AC1A005907CA /* AppDelegate.m in Sources */,
+				2E9236C61912AC1A005907CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9236D31912AC1A005907CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9236E51912AC1A005907CA /* SimpleGymTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E9236DD1912AC1A005907CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E9236B51912AC1A005907CA /* SimpleGym */;
+			targetProxy = 2E9236DC1912AC1A005907CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E9236C21912AC1A005907CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9236C31912AC1A005907CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E9236CB1912AC1A005907CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9236CC1912AC1A005907CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9236E11912AC1A005907CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9236E21912AC1A005907CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E9236E61912AC1A005907CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E9236E71912AC1A005907CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E9236E91912AC1A005907CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGym/SimpleGym-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGym/SimpleGym-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E9236EA1912AC1A005907CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGym/SimpleGym-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGym/SimpleGym-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2E9236EC1912AC1A005907CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleGym.app/SimpleGym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGym/SimpleGym-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleGymTests/SimpleGymTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2E9236ED1912AC1A005907CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleGym.app/SimpleGym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGym/SimpleGym-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGymTests/SimpleGymTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E9236B11912AC1A005907CA /* Build configuration list for PBXProject "SimpleGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9236E61912AC1A005907CA /* Debug */,
+				2E9236E71912AC1A005907CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9236E81912AC1A005907CA /* Build configuration list for PBXNativeTarget "SimpleGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9236E91912AC1A005907CA /* Debug */,
+				2E9236EA1912AC1A005907CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E9236EB1912AC1A005907CA /* Build configuration list for PBXNativeTarget "SimpleGymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9236EC1912AC1A005907CA /* Debug */,
+				2E9236ED1912AC1A005907CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E9236AE1912AC1A005907CA /* Project object */;
+}
